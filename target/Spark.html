@@ -1,0 +1,1208 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 7, 2023 08:38:27 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Shyam</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Smoke</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="Shyam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployeeDetails123</p>
+            <p class="text-sm">
+              <span>8:38:27 am</span> / <span>00:00:03:384</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getEmployeeDetails123</h5>
+<span class='badge badge-success'>05.07.2023 8:38:27 am</span>
+<span class='badge badge-danger'>05.07.2023 8:38:31 am</span>
+<span class='badge badge-default'>00:00:03:384</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Shyam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:38:31 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create([
+    {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+    },
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    },
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    },
+    {
+        "id": 123,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly"
+        }
+    },
+    {
+        "id": 1232,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "dinner": [
+                "Chapti",
+                "Test2"
+            ],
+            "breakFast": "Idly",
+            "lunch": "puri"
+        }
+    },
+    {
+        "id": 1230,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "breakFast": "Idly",
+            "lunch": "puri"
+        }
+    },
+    {
+        "id": 10230,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly"
+        }
+    },
+    {
+        "fname": "Shyam",
+        "lname": "Kal",
+        "id": 456,
+        "email": "a@b.com"
+    },
+    {
+        "fname": "Schulist",
+        "lname": "Abernathy",
+        "id": 1450,
+        "email": "jinny.predovic@test.com"
+    },
+    {
+        "fname": "Hallie",
+        "lname": "Hessel",
+        "id": 1372,
+        "email": "molly.hilpert@test.com"
+    },
+    {
+        "1054": 10230,
+        "Randall": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10231
+    },
+    {
+        "1184": 10230,
+        "Valda": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10232
+    },
+    {
+        "1049": 10230,
+        "Kera": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10233
+    },
+    {
+        "1078": 10230,
+        "Sherry": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10234
+    },
+    {
+        "1306": 10230,
+        "Nick": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10235
+    },
+    {
+        "1154": 10230,
+        "Joaquin": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10236
+    },
+    {
+        "id": 1021,
+        "fname": "abcd",
+        "lname": "xyz",
+        "email": "aa@test.com",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "marks": [
+            {
+                "english": 90,
+                "tamil": 100
+            },
+            {
+                "english": 81,
+                "tamil": 90
+            }
+        ],
+        "favFood": {
+            "breakFast": "idli",
+            "lunch": "rice",
+            "dinner": [
+                "Chapati",
+                "milk"
+            ]
+        }
+    },
+    {
+        "id": 99,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 199,
+        "fname": null,
+        "lname": null,
+        "email": "a@b.com"
+    },
+    {
+        "id": 299,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 2199,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 399,
+        "fname": null,
+        "lname": null,
+        "email": "a@b.com"
+    },
+    {
+        "id": 9,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 8,
+        "email": "a@b.com"
+    },
+    {
+        "1957": 10230,
+        "Serina": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10237
+    },
+    {
+        "fname": "Kenneth",
+        "lname": "Hagenes",
+        "id": 1771,
+        "email": null
+    },
+    {
+        "fname": "Von",
+        "lname": "Nitzsche",
+        "id": 1824,
+        "email": null
+    },
+    {
+        "1667": 10230,
+        "Jeffie": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10238
+    },
+    {
+        "fname": "Kurtis",
+        "lname": "Beier",
+        "id": 1710,
+        "email": null
+    },
+    {
+        "1201": 10230,
+        "Antoinette": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10239
+    },
+    {
+        "fname": "Cameron",
+        "lname": "Lindgren",
+        "id": 1455,
+        "email": null
+    },
+    {
+        "1866": 10230,
+        "Lenore": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10240
+    },
+    {
+        "fname": "Shemeka",
+        "lname": "Fisher",
+        "id": 1873,
+        "email": null
+    },
+    {
+        "1774": 10230,
+        "Manual": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10241
+    },
+    {
+        "fname": "Silvia",
+        "lname": "Lesch",
+        "id": 1422,
+        "email": null
+    },
+    {
+        "1197": 10230,
+        "Rolf": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10242
+    },
+    {
+        "fname": "Raymon",
+        "lname": "Witting",
+        "id": 1375,
+        "email": null
+    },
+    {
+        "1098": 10230,
+        "Rory": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10243
+    },
+    {
+        "fname": "Nicky",
+        "lname": "Bernhard",
+        "id": 1463,
+        "email": null
+    },
+    {
+        "1486": 10230,
+        "Lindsay": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10244
+    },
+    {
+        "fname": "Elanor",
+        "lname": "Koch",
+        "id": 1318,
+        "email": null
+    },
+    {
+        "1270": 10230,
+        "Fred": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10245
+    },
+    {
+        "fname": "Daryl",
+        "lname": "Glover",
+        "id": 1624,
+        "email": null
+    },
+    {
+        "1872": 10230,
+        "Chae": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10246
+    },
+    {
+        "fname": "Hipolito",
+        "lname": "Gusikowski",
+        "id": 1579,
+        "email": null
+    },
+    {
+        "1185": 10230,
+        "Blake": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10247
+    },
+    {
+        "fname": "Weston",
+        "lname": "Weber",
+        "id": 1844,
+        "email": null
+    },
+    {
+        "1495": 10230,
+        "Carina": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10248
+    }
+]); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Smoke</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Smoke</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:38:27 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>getEmployeeDetails123</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Shyam</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Shyam</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:38:27 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>getEmployeeDetails123</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 7, 2023 08:38:27 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 7, 2023 08:38:31 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>1</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"getEmployeeDetails123":3.384
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Shyam</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Smoke</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 1,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

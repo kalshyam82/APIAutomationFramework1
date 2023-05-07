@@ -1,0 +1,14 @@
+
+f
+java:S1192"IDefine a constant instead of duplicating this literal "user.dir" 3 times.(ÿωΉά8Θ±πό0
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿωΉά8Λ±πό0
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ίΊ†η8Λ±πό0
+{	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΠΈριϋÿÿÿÿ8Λ±πό0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ΰΙΰΖÿÿÿÿÿ8Ο±πό0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿωΉά8Τ±πό0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ίΊ†η8Χ±πό0
+g
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ΠΈριϋÿÿÿÿ8Χ±πό0

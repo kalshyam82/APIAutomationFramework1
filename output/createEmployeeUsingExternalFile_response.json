@@ -1,0 +1,29 @@
+{
+  "1306": 10230,
+  "Nick": "Shyam",
+  "lname": "Sunder",
+  "email": "a@b.com",
+  "jobs": [
+    "Trainer",
+    "Tester"
+  ],
+  "marks": [
+    {
+      "tamil": 100,
+      "english": 99
+    },
+    {
+      "tamil": 77,
+      "english": 88
+    }
+  ],
+  "favFood": {
+    "lunch": "puri",
+    "breakFast": "Idly",
+    "dinner": [
+      "chapati",
+      "Milk"
+    ]
+  },
+  "id": 10235
+}

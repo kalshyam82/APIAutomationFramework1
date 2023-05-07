@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.993 s <<< FAILURE! - in TestSuite
+com.tmb.tests.GetRequests.getEmployee[1232, Shyam](4)  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: 
+[Name is ] 
+expected: "Shyam"
+ but was: null
+	at com.tmb.tests.GetRequests.getEmployee(GetRequests.java:50)
+
+com.tmb.tests.PostTests.createEmployeeTest  Time elapsed: 0.424 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+expected: 201
+ but was: 500
+	at com.tmb.tests.PostTests.createEmployeeTest(PostTests.java:38)
+

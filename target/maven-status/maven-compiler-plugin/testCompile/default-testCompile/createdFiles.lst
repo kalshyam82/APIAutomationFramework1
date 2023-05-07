@@ -1,0 +1,4 @@
+com\tmb\tests\BaseTest.class
+com\tmb\tests\GetRequests.class
+com\tmb\tests\FCwithSingleton.class
+com\tmb\tests\PostTests.class

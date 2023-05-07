@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.993" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kalsh\IdeaProjects\APIAutomationFramework\target\test-classes;C:\Users\kalsh\IdeaProjects\APIAutomationFramework\target\classes;C:\Users\kalsh\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kalsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kalsh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kalsh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kalsh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\kalsh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\kalsh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kalsh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kalsh\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kalsh\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\kalsh\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kalsh\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kalsh\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\kalsh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\kalsh\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\kalsh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\kalsh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kalsh\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\kalsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\kalsh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\kalsh\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\kalsh\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\kalsh\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\kalsh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\kalsh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kalsh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\kalsh\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\kalsh\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;C:\Users\kalsh\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\kalsh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\kalsh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\kalsh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\kalsh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\kalsh\AppData\Local\Temp\surefire2349977462291134557\surefirebooter18007884590629865873.jar C:\Users\kalsh\AppData\Local\Temp\surefire2349977462291134557 2023-04-30T23-10-12_703-jvmRun1 surefire7193790146741753701tmp surefire_017269546330964594165tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kalsh\IdeaProjects\APIAutomationFramework\target\test-classes;C:\Users\kalsh\IdeaProjects\APIAutomationFramework\target\classes;C:\Users\kalsh\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kalsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kalsh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kalsh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kalsh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kalsh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\kalsh\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\kalsh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\kalsh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kalsh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kalsh\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kalsh\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\kalsh\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kalsh\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kalsh\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\kalsh\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\kalsh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\kalsh\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\kalsh\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\kalsh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\kalsh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kalsh\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\kalsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\kalsh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\kalsh\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\kalsh\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\kalsh\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\kalsh\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\kalsh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\kalsh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kalsh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\kalsh\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\kalsh\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;C:\Users\kalsh\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\kalsh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\kalsh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\kalsh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\kalsh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kalsh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kalsh\IdeaProjects\APIAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kalsh\AppData\Local\Temp\surefire2349977462291134557\surefirebooter18007884590629865873.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="kalsh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kalsh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kalsh\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\kalsh\IdeaProjects\APIAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\kalsh\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\kalsh\AppData\Local\Microsoft\WindowsApps;C:\Users\kalsh\AppData\Roaming\npm;C:\Users\kalsh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kalsh\AppData\Local\GitHubDesktop\bin;C:\Users\kalsh\.dotnet\tools;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="getEmployeeDetails" classname="com.tmb.tests.GetRequests" time="1.327">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[
+    {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+    },
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    },
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    },
+    {
+        "id": 1232,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "dinner": [
+                "Chapti",
+                "Test2"
+            ],
+            "breakFast": "Idly",
+            "lunch": "puri"
+        }
+    },
+    {
+        "id": 1230,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "breakFast": "Idly",
+            "lunch": "puri"
+        }
+    },
+    {
+        "id": 10230,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly"
+        }
+    },
+    {
+        "fname": "Shyam",
+        "lname": "Kal",
+        "id": 456,
+        "email": "a@b.com"
+    },
+    {
+        "fname": "Schulist",
+        "lname": "Abernathy",
+        "id": 1450,
+        "email": "jinny.predovic@test.com"
+    },
+    {
+        "fname": "Hallie",
+        "lname": "Hessel",
+        "id": 1372,
+        "email": "molly.hilpert@test.com"
+    },
+    {
+        "1054": 10230,
+        "Randall": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10231
+    },
+    {
+        "1184": 10230,
+        "Valda": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10232
+    },
+    {
+        "1049": 10230,
+        "Kera": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10233
+    },
+    {
+        "1078": 10230,
+        "Sherry": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10234
+    },
+    {
+        "1306": 10230,
+        "Nick": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10235
+    },
+    {
+        "1154": 10230,
+        "Joaquin": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10236
+    },
+    {
+        "id": 1021,
+        "fname": "abcd",
+        "lname": "xyz",
+        "email": "aa@test.com",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "marks": [
+            {
+                "english": 90,
+                "tamil": 100
+            },
+            {
+                "english": 81,
+                "tamil": 90
+            }
+        ],
+        "favFood": {
+            "breakFast": "idli",
+            "lunch": "rice",
+            "dinner": [
+                "Chapati",
+                "milk"
+            ]
+        }
+    },
+    {
+        "id": 99,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 199,
+        "fname": null,
+        "lname": null,
+        "email": "a@b.com"
+    },
+    {
+        "id": 299,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 2199,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 399,
+        "fname": null,
+        "lname": null,
+        "email": "a@b.com"
+    },
+    {
+        "id": 9,
+        "fname": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com"
+    },
+    {
+        "id": 8,
+        "email": "a@b.com"
+    },
+    {
+        "1957": 10230,
+        "Serina": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10237
+    },
+    {
+        "fname": "Kenneth",
+        "lname": "Hagenes",
+        "id": 1771,
+        "email": null
+    },
+    {
+        "id": 10238,
+        "fname": null,
+        "lname": null,
+        "email": null
+    },
+    {
+        "id": 10239,
+        "fname": null,
+        "lname": null,
+        "email": null
+    },
+    {
+        "id": 222,
+        "fname": "Test1",
+        "lname": "Ini",
+        "email": "a@b.com"
+    },
+    {
+        "id": 2022,
+        "fname": "Test1",
+        "email": "a@b.com"
+    },
+    {
+        "id": 111,
+        "fname": "Test",
+        "lname": "Lal",
+        "email": "a@b.com"
+    },
+    {
+        "id": 10240
+    },
+    {
+        "id": 101,
+        "fname": "Test",
+        "lname": "Lal"
+    },
+    {
+        "fname": "Test",
+        "id": 121,
+        "lname": "Lal"
+    },
+    {
+        "id": 21,
+        "fname": "Test",
+        "lname": "Lal"
+    },
+    {
+        "1417": 10230,
+        "Jere": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10241
+    },
+    {
+        "fname": "Test1",
+        "lname": "Test2",
+        "email": "a@b.com",
+        "id": 212
+    },
+    {
+        "fname": "Gilbert",
+        "lname": "Rolfson",
+        "email": "danyell.roob@test.com",
+        "id": 1776
+    },
+    {
+        "fname": "Young",
+        "lname": "Mraz",
+        "email": "clementina.glover@test.com",
+        "id": 1290
+    },
+    {
+        "fname": "Patria",
+        "lname": "Hudson",
+        "email": "arlean.walsh@test.com",
+        "id": 1730
+    },
+    {
+        "fname": "Rodrick",
+        "lname": "Huel",
+        "email": "bobbie.schulist@test.com",
+        "id": 1680
+    },
+    {
+        "fname": "Patria",
+        "lname": "Hudson",
+        "email": "arlean.walsh@test.com",
+        "id": 1710
+    },
+    {
+        "fname": "Patria",
+        "lname": "Hudson",
+        "email": "arlean.walsh@test.com",
+        "id": 1131
+    },
+    {
+        "fname": "Tory",
+        "lname": "Witting",
+        "id": 1277,
+        "email": null
+    },
+    {
+        "1943": 10230,
+        "Mary": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10242
+    },
+    {
+        "fname": "Patria",
+        "lname": "Hudson",
+        "email": "arlean.walsh@test.com",
+        "id": 1489
+    },
+    {
+        "fname": "Kourtney",
+        "lname": "Kerluke",
+        "email": "shaquita.muller@test.com",
+        "id": 1662
+    },
+    {
+        "fname": "Patria",
+        "lname": "Hudson",
+        "email": "arlean.walsh@test.com",
+        "id": 1936
+    },
+    {
+        "fname": "Kristyn",
+        "lname": "Shields",
+        "id": 1066,
+        "email": null
+    },
+    {
+        "1965": 10230,
+        "Gerard": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10243
+    },
+    {
+        "fname": "Tonia",
+        "lname": "Turcotte",
+        "id": 1258,
+        "email": null
+    },
+    {
+        "1637": 10230,
+        "Denny": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10244
+    },
+    {
+        "fname": "Georgiann",
+        "lname": "Bashirian",
+        "id": 1973,
+        "email": null
+    },
+    {
+        "1172": 10230,
+        "Joie": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10245
+    },
+    {
+        "fname": "Chung",
+        "lname": "Rolfson",
+        "id": 1708,
+        "email": null
+    },
+    {
+        "1353": 10230,
+        "Errol": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10246
+    },
+    {
+        "fname": "Clifton",
+        "lname": "Heidenreich",
+        "id": 1365,
+        "email": null
+    },
+    {
+        "1658": 10230,
+        "Roselee": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10247
+    },
+    {
+        "fname": "Adan",
+        "lname": "Volkman",
+        "id": 1513,
+        "email": null
+    },
+    {
+        "1739": 10230,
+        "Thao": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10248
+    },
+    {
+        "fname": "Shannon",
+        "lname": "Kreiger",
+        "id": 1669,
+        "email": null
+    },
+    {
+        "1646": 10230,
+        "Lavonna": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10249
+    },
+    {
+        "fname": "Haywood",
+        "lname": "Ernser",
+        "id": 1375,
+        "email": null
+    },
+    {
+        "1287": 10230,
+        "Morgan": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10250
+    },
+    {
+        "fname": "Taisha",
+        "lname": "Spinka",
+        "id": 1225,
+        "email": null
+    },
+    {
+        "1051": 10230,
+        "Christen": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10251
+    },
+    {
+        "fname": "Brendon",
+        "lname": "Zemlak",
+        "id": 1037,
+        "email": null
+    },
+    {
+        "1060": 10230,
+        "Theresa": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10252
+    },
+    {
+        "fname": "Audra",
+        "lname": "Brekke",
+        "id": 1313,
+        "email": null
+    },
+    {
+        "1930": 10230,
+        "Daisy": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10253
+    },
+    {
+        "fname": "Korey",
+        "lname": "Boehm",
+        "id": 1120,
+        "email": null
+    },
+    {
+        "1505": 10230,
+        "Modesto": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10254
+    },
+    {
+        "fname": "Kendrick",
+        "lname": "Konopelski",
+        "id": 1113,
+        "email": null
+    },
+    {
+        "1460": 10230,
+        "Towanda": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10255
+    },
+    {
+        "fname": "Dominique",
+        "lname": "Grimes",
+        "id": 1382,
+        "email": null
+    },
+    {
+        "1974": 10230,
+        "Wilton": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10256
+    },
+    {
+        "fname": "Palmer",
+        "lname": "Zulauf",
+        "id": 1121,
+        "email": null
+    },
+    {
+        "1755": 10230,
+        "Alonso": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10257
+    },
+    {
+        "fname": "Reggie",
+        "lname": "Nitzsche",
+        "id": 1560,
+        "email": null
+    },
+    {
+        "1009": 10230,
+        "Emmie": "Shyam",
+        "lname": "Sunder",
+        "email": "a@b.com",
+        "jobs": [
+            "Trainer",
+            "Tester"
+        ],
+        "marks": [
+            {
+                "tamil": 100,
+                "english": 99
+            },
+            {
+                "tamil": 77,
+                "english": 88
+            }
+        ],
+        "favFood": {
+            "lunch": "puri",
+            "breakFast": "Idly",
+            "dinner": [
+                "chapati",
+                "Milk"
+            ]
+        },
+        "id": 10258
+    }
+]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getEmployee[1, Sebastian](1)" classname="com.tmb.tests.GetRequests" time="0.355">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "id": 1,
+    "first_name": "Sebastian",
+    "last_name": "Eschweiler",
+    "email": "sebastian@codingthesmartway.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployee[2, Steve](2)" classname="com.tmb.tests.GetRequests" time="0.05">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "id": 2,
+    "first_name": "Steve",
+    "last_name": "Palmer",
+    "email": "steve@codingthesmartway.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployee[3, Ann](3)" classname="com.tmb.tests.GetRequests" time="0.039">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "id": 3,
+    "first_name": "Ann",
+    "last_name": "Smith",
+    "email": "ann@codingthesmartway.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployee[1232, Shyam](4)" classname="com.tmb.tests.GetRequests" time="0.056">
+    <failure message="[Name is ] &#10;expected: &quot;Shyam&quot;&#10; but was: null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[Name is ] 
+expected: "Shyam"
+ but was: null
+	at com.tmb.tests.GetRequests.getEmployee(GetRequests.java:50)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees/1232
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1232
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "id": 1232,
+    "fname": "Shyam",
+    "lname": "Sunder",
+    "email": "a@b.com",
+    "jobs": [
+        "Trainer",
+        "Tester"
+    ],
+    "marks": [
+        {
+            "tamil": 100,
+            "english": 99
+        },
+        {
+            "tamil": 77,
+            "english": 88
+        }
+    ],
+    "favFood": {
+        "dinner": [
+            "Chapti",
+            "Test2"
+        ],
+        "breakFast": "Idly",
+        "lunch": "puri"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createEmployeeTest" classname="com.tmb.tests.PostTests" time="0.424">
+    <failure message="&#10;expected: 201&#10; but was: 500" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+expected: 201
+ but was: 500
+	at com.tmb.tests.PostTests.createEmployeeTest(PostTests.java:38)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3000/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fname": "Fausto",
+    "lname": "Farrell",
+    "id": 1120,
+    "email": null
+}
+<html>
+  <body>Error: Insert failed, duplicate id
+    at Function.insert (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash-id\src\index.js:49:18)
+    at C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4430:28
+    at arrayReduce (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:697:21)
+    at baseWrapperValue (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:4429:14)
+    at LodashWrapper.wrapperValue (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\lodash\lodash.js:9114:14)
+    at create (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\lib\server\router\plural.js:239:48)
+    at Layer.handle [as handle_request] (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:144:13)
+    at next (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:140:7)
+    at Route.dispatch (C:\Users\kalsh\AppData\Roaming\npm\node_modules\json-server\node_modules\express\lib\router\route.js:114:3)</body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="createEmployeeUsingExternalFile[public void com.tmb.tests.PostTests.createEmployeeUsingExternalFile(java.lang.reflect.Method)](1)" classname="com.tmb.tests.PostTests" time="0.048">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3000/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "1038": 10230,
+    "Hong": "Shyam",
+    "lname": "Sunder",
+    "email": "a@b.com",
+    "jobs": [
+        "Trainer",
+        "Tester"
+    ],
+    "marks": [
+        {
+            "tamil": 100,
+            "english": 99
+        },
+        {
+            "tamil": 77,
+            "english": 88
+        }
+    ],
+    "favFood": {
+        "lunch": "puri",
+        "breakFast": "Idly",
+        "dinner": [
+            "chapati",
+            "Milk"
+        ]
+    }
+}
+{
+    "1038": 10230,
+    "Hong": "Shyam",
+    "lname": "Sunder",
+    "email": "a@b.com",
+    "jobs": [
+        "Trainer",
+        "Tester"
+    ],
+    "marks": [
+        {
+            "tamil": 100,
+            "english": 99
+        },
+        {
+            "tamil": 77,
+            "english": 88
+        }
+    ],
+    "favFood": {
+        "lunch": "puri",
+        "breakFast": "Idly",
+        "dinner": [
+            "chapati",
+            "Milk"
+        ]
+    },
+    "id": 10259
+}
+]]></system-out>
+  </testcase>
+</testsuite>
